@@ -138,11 +138,36 @@ p {
   padding: 3% 2%;
 }
 
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding: 7% 15%
+}
+
+.cta-title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 6% 0%;
+}
+
+.footer-icon {
+  margin: 0 1% 0;
+}
+
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
-  
+
   .title-image{
     position: static;
     transform: rotate(0);
