@@ -1,26 +1,11 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-h1{
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3.5rem;
-  color: white;
-  line-height: 1.5;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 1.5rem;
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 p {
@@ -28,14 +13,23 @@ p {
 
 }
 
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.5;
+}
 
-.container-fluid{
-  padding: 3% 15% 7%;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 
-#title{
-  background-color: #ff4c68;
+.container-fluid{
+  padding: 7% 15%;
 }
 
 
@@ -63,6 +57,18 @@ p {
 }
 
 
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
 
 /* Download Buttons */
 .download-button{
@@ -81,13 +87,15 @@ p {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
 
@@ -102,7 +110,6 @@ p {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -113,9 +120,13 @@ p {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -124,37 +135,28 @@ p {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-col {
   padding: 3% 2%;
 }
 
-#cta {
-  background-color: #ff4c68;
-  font-family: 'Montserrat',sans-serif;
-  font-weight: 900;
-  color: white;
-  text-align: center;
-  padding: 7% 15%
-}
-
-.cta-title {
-  font-size: 3.5rem;
+.price-text {
+  font-size: 3rem;
   line-height: 1.5;
 }
 
+#cta {
+  background-color: #ff4c68;
+}
+
+
 #footer{
   background-color: white;
-  text-align: center;
   padding: 6% 0%;
 }
 
